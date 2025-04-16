@@ -1,0 +1,20 @@
+Source: burpsuite
+Section: unknown
+Priority: optional
+Maintainer: Joe <joe@rstrike.my.id>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://portswigger.net/burp
+Vcs-Browser: https://gitlab.com/hydra-ng/packages/burpsuite
+Vcs-Git: https://gitlab.com/hydra-ng/packages/burpsuite.git
+
+Package: burpsuite
+Architecture: any
+Multi-Arch: foreign
+Depends:
+ openjdk-21-jdk,
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: Burp Suite - Application Security Testing Software.

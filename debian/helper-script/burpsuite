@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+set -e
+
+java -jar /usr/share/burpsuite/burpsuite.jar "$@"
