@@ -1,3 +1,3 @@
-burpsuite.jar usr/share/burpsuite/
-md5sum.txt usr/share/burpsuite/
-debian/helper-script/burpsuite usr/bin/
+burpsuite.jar usr/local/Library/Applications/burpsuite/
+md5sum.txt usr/local/Library/Applications/burpsuite/
+debian/helper-script/burpsuite usr/local/Library/bin/
